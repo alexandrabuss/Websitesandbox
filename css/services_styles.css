@@ -3304,3 +3304,61 @@ html {
     }
   }
   
+  .box {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .box::after {
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: fit-content;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .box:hover {
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+    }
+
+    .box:hover::after {
+    opacity: 1;
+    }
+
+  .bottom_top {
+    z-index: 2;
+    text-align: center;
+    background-color: #d9d9d9;
+    border: 1px #000;
+    border-radius: .56em;
+    padding: .91em;
+    position: relative;
+    object-fit: contain;
+  }
+
+  .button {
+    margin-top: .35em;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  
+  .buton_contain {
+    margin-top: 1em;
+    position: relative;
+    object-fit: contain;
+  }
