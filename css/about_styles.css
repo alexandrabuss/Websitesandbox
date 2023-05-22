@@ -2308,15 +2308,6 @@ html {
     line-height: .97;
   }
   
-  .button {
-    margin-top: 1.35em;
-    padding-bottom: 0;
-    padding-left: 0;
-  }
-  
-  .buton_contain {
-    position: relative;
-  }
   
   .bottom_top {
     z-index: 2;
@@ -3243,5 +3234,15 @@ html {
     border-radius: .56em;
     margin-left: 0;
     padding: .91em;
+    position: relative;
+  }
+
+  .button {
+    margin-top: 1.35em;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  
+  .buton_contain {
     position: relative;
   }
