@@ -3237,12 +3237,13 @@ html {
   }
 
   .button {
-    margin-top: 1.35em;
+    margin-top: .35em;
     padding-bottom: 0;
     padding-left: 0;
   }
   
   .buton_contain {
+    margin-top: 1em;
     position: relative;
     object-fit: contain;
   }
