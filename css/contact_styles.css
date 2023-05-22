@@ -2319,7 +2319,7 @@ html {
   }
   
   .hero-top_left.is--top {
-    align-items: flex-start;
+    align-items: center;
   }
   
   .heading-1 {
@@ -3010,6 +3010,7 @@ html {
   .is--p2-2.is--header {
     margin-left: 0;
     font-size: 1.4em;
+    text-align: center;
   }
   
   .image_mid_center {
