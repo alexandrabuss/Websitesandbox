@@ -3209,7 +3209,7 @@ html {
     z-index: -1;
     top: 0;
     left: 0;
-    width: 100%;
+    width: fit-content;
     height: 100%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     opacity: 0;
@@ -3223,7 +3223,7 @@ html {
     }
 
     .box:hover::after {
-        opacity: 1;
+    opacity: 1;
     }
 
   .bottom_top {
@@ -3232,8 +3232,9 @@ html {
     background-color: #d9d9d9;
     border: 1px #000;
     border-radius: .56em;
-     /*padding: .91em;*/ 
+    padding: .91em;
     position: relative;
+    object-fit: contain;
   }
 
   .button {
@@ -3244,4 +3245,5 @@ html {
   
   .buton_contain {
     position: relative;
+    object-fit: contain;
   }
