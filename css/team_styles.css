@@ -2971,6 +2971,7 @@ html {
     justify-content: center;
     align-items: center;
     display: flex;
+    padding-bottom: 1em;
   }
   
   .image-2 {

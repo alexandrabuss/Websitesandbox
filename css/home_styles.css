@@ -2611,6 +2611,7 @@ html {
   .heading-3 {
     color: #fff;
     margin-bottom: 0;
+    text-transform: uppercase;
   }
   
   .heading-4 {
@@ -3052,3 +3053,14 @@ html {
     padding: .9em;
     display: flex;
   }
+
+  .hero-mission-wrapper {
+    width: 100%;
+    border: 5px solid rgba(0, 37, 74, 0.7);
+    border-radius: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.9em;
+    display: flex;
+}
